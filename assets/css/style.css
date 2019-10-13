@@ -1,31 +1,71 @@
-*{
+/* *{
     box-sizing: border-box;
-}
+} */
 
-#wrapper{
-    width: 80%;
+/* #wrapper{ */
+    /* width: 80%;
     margin: 0 auto;
+} */
+
+body{
+    background-image: url("../images/gravel.png");
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 header{
     
+    background-color: #ffffff;
+    border-color:#cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    height:60px; 
+    
 }
 
 h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
-    width: 230px;
-    padding-left: 10px;
+    width: 260px;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    position: relative;
+    text-align:center;
+    top: -5px;
+    left: 15%;
+    margin: 0;
 
 }
 
-
-content{
-
+h2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    padding-top: 15px;
+   
 }
 
-#line{
+
+#content{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#frame{
+    margin: 30px ;
+}
+
+/* #line{
     position: relative;
     width: 150px;
     height: 100px;
     background: red;
+} */
+
+#bio{
+    /* float: left; */
+    
+
 }
