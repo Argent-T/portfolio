@@ -1,3 +1,5 @@
+*{box-sizing:border-box;}
+
 
 html, body {
     height: 100%;
@@ -13,24 +15,14 @@ body{
     margin-bottom: 0;
 }
 
-header{
-    
-    background-color: #ffffff;
-    border-color:#cccccc;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    height:60px;    
-}
+
 
 /* top right links */
 #headlink{
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    float: right;
-    position:relative;
-    top: -45px;
-    right: 15%;
     color:#777777;
     word-spacing: 5px; 
+    
 }
 
 #port{
@@ -69,17 +61,30 @@ a:link {
 
 
 /* Header */
+
+#headwrap{
+    width:960px;
+    display: flex;
+    margin:0 auto; 
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header{
+    
+    background-color: #ffffff;
+    border-color:#cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin:0;   
+}
 h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
-    width: 260px;
+    width: 300px;
     color: white;
     padding: 15px;
-    padding-left: 20px;
-    position: relative;
     text-align:center;
-    top: -5px;
-    left: 15%;
     margin: 0;
 }
 
