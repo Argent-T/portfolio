@@ -99,8 +99,9 @@ h2{
 }
 
 /* Main body */
+p{font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
 #content{
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
     width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
@@ -168,9 +169,17 @@ footer{
     color: white;
     text-align: center;
     padding-top: 15px;
-   
 }
 
 .footer {
     flex-shrink: 0;
+  }
+
+ 
+  .img-holder {position: relative; display: inline-block;}
+  .img-holder img {display: block;}
+  .img-holder p {position: absolute; top: 85%; left: 0; right: 0; transform: translate(0, -50%); text-align: center;background-color: #4aaaa5; color: white; padding: 10px;}
+
+  #portframe{
+      width: 600px;
   }
