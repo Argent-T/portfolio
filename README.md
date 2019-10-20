@@ -27,6 +27,7 @@ The portfolio page will house links to the various projects both inside and outs
 ## Credits
 Website background texture (https://www.toptal.com/designers/subtlepatterns/)
 Sticky footer tutorial (https://css-tricks.com/couple-takes-sticky-footer/)
+Alexander Garcia, DeVante Bailey, and Cleveland Pitt Jr. 
 
 ## License
 MIT License
